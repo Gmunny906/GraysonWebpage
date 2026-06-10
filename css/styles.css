@@ -1,0 +1,61 @@
+body{
+    background-color:#B9BBB4;
+    color:#000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size:16px;
+    line-height:1.6em;
+    margin:0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+#main-header{
+    background: linear-gradient(to bottom, #B15813 50%, #B9BBB4 50%);
+    color:#fff;
+}
+
+#navbar{
+    background-color:#626237;
+    color:#000;
+}
+
+#navbar ul{
+    padding:0;
+    list-style: none;
+}
+
+#navbar li{
+    display:inline;
+}
+
+#navbar a{
+    color:white;
+    text-decoration: none;
+    font-size:18px;
+    padding-right:15px;
+}
+
+#navbar a:hover{
+    color:#626237
+}
+
+#showcase{
+    background-image:url('../images/pacnw2.jpg');
+    background-position:center right;
+   min-height:300px;
+    margin-bottom:30px;
+    text-align: center;
+}
+
+#showcase h1{
+    color:#000;
+    font-size:50px;
+    line-height: 1.6em;
+    padding-top:30px;
+
+}
+
